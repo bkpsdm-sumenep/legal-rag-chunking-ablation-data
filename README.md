@@ -80,7 +80,9 @@ print(round(d.mean(), 2), wilcoxon(w.loc[d.index, "A2"], w.loc[d.index, "A3"]).p
 
 ## License
 
-[TODO: choose a license, e.g. CC BY 4.0]
+This dataset is licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You may share and adapt the data for any purpose, provided you give appropriate credit by citing the paper. See `LICENSE` for the full legal code.
+
+The regulation texts quoted in the contexts are Indonesian laws and regulations, which are not subject to copyright under Article 42 of Law No. 28 of 2014 on Copyright.
 
 ## Citation
 
