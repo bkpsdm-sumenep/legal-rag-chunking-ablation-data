@@ -1,0 +1,63 @@
+{
+  "measured_at": "2026-09-30T18:48:10.480780",
+  "n_queries": 97,
+  "k": 5,
+  "collections": {
+    "regulasi-kepegawaian-v3": {
+      "dipakai_oleh": "treatment H2 tesis, H1",
+      "points": 5816,
+      "hnsw_m": 16,
+      "hnsw_ef_construct": 100,
+      "kueri_top5_berbeda": 1,
+      "recall_at_5": 0.9979381443298969
+    },
+    "regulasi-kepegawaian-fixed-chunking-baseline": {
+      "dipakai_oleh": "baseline H2 tesis, H1-N0 (RAG naif)",
+      "points": 14184,
+      "hnsw_m": 16,
+      "hnsw_ef_construct": 100,
+      "kueri_top5_berbeda": 62,
+      "recall_at_5": 0.5670103092783506
+    },
+    "regulasi-kepegawaian-tesis-h3": {
+      "dipakai_oleh": "H3 koleksi governance",
+      "points": 6739,
+      "hnsw_m": 16,
+      "hnsw_ef_construct": 100,
+      "kueri_top5_berbeda": 6,
+      "recall_at_5": 0.9876288659793813
+    },
+    "regulasi-kepegawaian-paper-h2": {
+      "dipakai_oleh": "A1, A2, A2r",
+      "points": 5816,
+      "hnsw_m": 16,
+      "hnsw_ef_construct": 100,
+      "kueri_top5_berbeda": 0,
+      "recall_at_5": 1.0
+    },
+    "regulasi-kepegawaian-paper-fixed1000": {
+      "dipakai_oleh": "A0",
+      "points": 11454,
+      "hnsw_m": 16,
+      "hnsw_ef_construct": 100,
+      "kueri_top5_berbeda": 35,
+      "recall_at_5": 0.8474226804123707
+    },
+    "regulasi-kepegawaian-paper-fixed5000": {
+      "dipakai_oleh": "A3",
+      "points": 2318,
+      "hnsw_m": 16,
+      "hnsw_ef_construct": 100,
+      "kueri_top5_berbeda": 0,
+      "recall_at_5": 1.0
+    },
+    "regulasi-kepegawaian-paper-pasal": {
+      "dipakai_oleh": "A4",
+      "points": 2807,
+      "hnsw_m": 16,
+      "hnsw_ef_construct": 100,
+      "kueri_top5_berbeda": 0,
+      "recall_at_5": 1.0
+    }
+  }
+}

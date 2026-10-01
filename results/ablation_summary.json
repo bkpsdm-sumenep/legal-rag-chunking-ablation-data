@@ -1,0 +1,1712 @@
+{
+  "generated_at": "2026-09-30T19:53:03.082483",
+  "runs": {
+    "A0": "7ece8d4c-4370-4e8d-a6ff-4684aed2037d",
+    "A2": "535cc139-677c-4e40-8d2e-ca0d766888f0",
+    "A1": "d826af87-33bb-4864-96c2-467056e4f57f",
+    "A3": "837b2c63-c931-483d-b607-f644be94ec0b",
+    "A4": "85d4bc49-e64b-4dc2-bb26-58e02cfb658e",
+    "A2r": "4136f6f3-60bf-437a-b1c1-18f16c3f7ba6",
+    "A0x": "c4d3de03-ead5-432b-b442-a147b92bd3d2",
+    "B0x": "a8e275e7-7c24-48bb-a4a6-bbf65638b6ea"
+  },
+  "n_in_scope": 97,
+  "n_containment_eval": 93,
+  "n_gold_chunks": 138,
+  "gold_unrecoverable": 4,
+  "means": {
+    "A0": {
+      "context_recall": 70.8836524300442,
+      "factual": 36.845360824742265,
+      "context_precision": 58.320446730626685,
+      "answer_relevance": 78.99535115393016,
+      "faithfulness": 83.00069161348723
+    },
+    "A2": {
+      "context_recall": 74.26853215513009,
+      "factual": 41.17525773195876,
+      "context_precision": 71.8814432946918,
+      "answer_relevance": 84.60017603706605,
+      "faithfulness": 84.090289721733
+    },
+    "A1": {
+      "context_recall": 54.85272459499263,
+      "factual": 34.319587628865975,
+      "context_precision": 53.01546391311733,
+      "answer_relevance": 72.17684156363421,
+      "faithfulness": 74.19764423494756
+    },
+    "A3": {
+      "context_recall": 89.03780068728523,
+      "factual": 43.01030927835052,
+      "context_precision": 77.68184420954474,
+      "answer_relevance": 86.99944127240758,
+      "faithfulness": 87.53966024205565
+    },
+    "A4": {
+      "context_recall": 75.54000981836033,
+      "factual": 43.824742268041234,
+      "context_precision": 77.12628865650085,
+      "answer_relevance": 85.15054247704865,
+      "faithfulness": 84.23681558990836
+    },
+    "A2r": {
+      "context_recall": 74.26853215513009,
+      "factual": 44.77319587628866,
+      "context_precision": 71.65807559711763,
+      "answer_relevance": 84.71940322904976,
+      "faithfulness": 83.10588248498055
+    },
+    "A0x": {
+      "context_recall": 74.38880706921944,
+      "factual": 40.65979381443299,
+      "context_precision": 60.3049828130538,
+      "answer_relevance": 82.49632113139762,
+      "faithfulness": 82.38661639889658
+    },
+    "B0x": {
+      "context_recall": 75.96956308296514,
+      "factual": 40.319587628865975,
+      "context_precision": 58.57531500135414,
+      "answer_relevance": 82.59183431659234,
+      "faithfulness": 82.94751926195225
+    }
+  },
+  "containment_rate": {
+    "A0": 47.31182795698925,
+    "A2": 81.72043010752688,
+    "A1": 51.61290322580645,
+    "A3": 93.54838709677419,
+    "A4": 81.72043010752688,
+    "A2r": 81.72043010752688,
+    "A0x": 51.61290322580645,
+    "B0x": 50.53763440860215
+  },
+  "ops": {
+    "A0": {
+      "n": 97,
+      "context_chars": 4982.288659793814,
+      "latency_s": 9.315934896469116,
+      "input_tokens": 2989.463917525773,
+      "cost_usd": 0.56806315
+    },
+    "A2": {
+      "n": 97,
+      "context_chars": 25574.360824742267,
+      "latency_s": 9.36767053604126,
+      "input_tokens": 8076.268041237114,
+      "cost_usd": 1.3283756499999997
+    },
+    "A1": {
+      "n": 97,
+      "context_chars": 6980.134020618557,
+      "latency_s": 31.4968581199646,
+      "input_tokens": 3308.4742268041236,
+      "cost_usd": 0.6027491499999998
+    },
+    "A3": {
+      "n": 97,
+      "context_chars": 24306.0412371134,
+      "latency_s": 32.248265981674194,
+      "input_tokens": 7911.865979381443,
+      "cost_usd": 1.31987515
+    },
+    "A4": {
+      "n": 97,
+      "context_chars": 30657.288659793816,
+      "latency_s": 8.9023756980896,
+      "input_tokens": 9718.38144329897,
+      "cost_usd": 1.5494531500000006
+    },
+    "A2r": {
+      "n": 97,
+      "context_chars": 26106.082474226805,
+      "latency_s": 9.552059650421143,
+      "input_tokens": 8194.948453608247,
+      "cost_usd": 1.34840365
+    },
+    "A0x": {
+      "n": 97,
+      "context_chars": 4982.309278350515,
+      "latency_s": 9.770251274108887,
+      "input_tokens": 2971.896907216495,
+      "cost_usd": 0.56811715
+    },
+    "B0x": {
+      "n": 97,
+      "context_chars": 4982.2474226804125,
+      "latency_s": 9.999238014221191,
+      "input_tokens": 2976.4742268041236,
+      "cost_usd": 0.5768756499999997
+    },
+    "H2-base": {
+      "n": 97,
+      "context_chars": 4977.80412371134,
+      "latency_s": 10.370998620986938,
+      "input_tokens": 2996.556701030928,
+      "cost_usd": 0.56419015
+    },
+    "H2-treat": {
+      "n": 97,
+      "context_chars": 27290.845360824744,
+      "latency_s": 10.958539485931396,
+      "input_tokens": 8553.350515463917,
+      "cost_usd": 1.39699615
+    }
+  },
+  "primary": [
+    {
+      "code": "P1",
+      "a": "A1",
+      "b": "A0x",
+      "metric": "context_recall",
+      "label": "Context Recall",
+      "n": 97,
+      "mean_a": 54.852724594992644,
+      "mean_b": 74.38880706921944,
+      "delta": -19.536082474226806,
+      "naik": 14,
+      "sama": 44,
+      "turun": 39,
+      "p": 0.001124642999993349,
+      "dz": -0.3694464846719384,
+      "ci": [
+        -29.7946735395189,
+        -9.380584192439875
+      ],
+      "p_holm": 0.006858138103154152,
+      "signifikan_holm": true
+    },
+    {
+      "code": "P1",
+      "a": "A1",
+      "b": "A0x",
+      "metric": "factual",
+      "label": "FactualCorrectness",
+      "n": 97,
+      "mean_a": 34.31958762886598,
+      "mean_b": 40.65979381443299,
+      "delta": -6.34020618556701,
+      "naik": 28,
+      "sama": 25,
+      "turun": 44,
+      "p": 0.06606778874250953,
+      "dz": -0.18789768134409285,
+      "ci": [
+        -13.072680412371133,
+        0.34046391752576943
+      ],
+      "p_holm": 0.29083936938372523,
+      "signifikan_holm": false
+    },
+    {
+      "code": "P2",
+      "a": "A2",
+      "b": "A1",
+      "metric": "context_recall",
+      "label": "Context Recall",
+      "n": 97,
+      "mean_a": 74.26853215513009,
+      "mean_b": 54.852724594992644,
+      "delta": 19.41580756013746,
+      "naik": 28,
+      "sama": 68,
+      "turun": 1,
+      "p": 1.8719777946900138e-05,
+      "dz": 0.5213280062674205,
+      "ci": [
+        12.542955326460483,
+        26.804123711340207
+      ],
+      "p_holm": 0.0001497582235752011,
+      "signifikan_holm": true
+    },
+    {
+      "code": "P2",
+      "a": "A2",
+      "b": "A1",
+      "metric": "factual",
+      "label": "FactualCorrectness",
+      "n": 97,
+      "mean_a": 41.175257731958766,
+      "mean_b": 34.31958762886598,
+      "delta": 6.855670103092783,
+      "naik": 39,
+      "sama": 29,
+      "turun": 29,
+      "p": 0.058167873876745047,
+      "dz": 0.23270221981351427,
+      "ci": [
+        1.288659793814433,
+        12.897164948453606
+      ],
+      "p_holm": 0.29083936938372523,
+      "signifikan_holm": false
+    },
+    {
+      "code": "P3",
+      "a": "A2",
+      "b": "A3",
+      "metric": "context_recall",
+      "label": "Context Recall",
+      "n": 97,
+      "mean_a": 74.26853215513009,
+      "mean_b": 89.03780068728521,
+      "delta": -14.769268532155131,
+      "naik": 5,
+      "sama": 70,
+      "turun": 22,
+      "p": 0.0009797340147363073,
+      "dz": -0.3522347805906565,
+      "ci": [
+        -23.122361315660285,
+        -6.958762886597938
+      ],
+      "p_holm": 0.006858138103154152,
+      "signifikan_holm": true
+    },
+    {
+      "code": "P3",
+      "a": "A2",
+      "b": "A3",
+      "metric": "factual",
+      "label": "FactualCorrectness",
+      "n": 97,
+      "mean_a": 41.175257731958766,
+      "mean_b": 43.01030927835052,
+      "delta": -1.8350515463917525,
+      "naik": 36,
+      "sama": 19,
+      "turun": 42,
+      "p": 0.5140500885988527,
+      "dz": -0.0610894717580036,
+      "ci": [
+        -7.835567010309278,
+        4.134020618556701
+      ],
+      "p_holm": 1.0,
+      "signifikan_holm": false
+    },
+    {
+      "code": "P4",
+      "a": "A2",
+      "b": "A4",
+      "metric": "context_recall",
+      "label": "Context Recall",
+      "n": 97,
+      "mean_a": 74.26853215513009,
+      "mean_b": 75.54000981836033,
+      "delta": -1.2714776632302403,
+      "naik": 7,
+      "sama": 83,
+      "turun": 7,
+      "p": 0.6977107412762615,
+      "dz": -0.03929742042782776,
+      "ci": [
+        -7.560137457044672,
+        4.94931271477662
+      ],
+      "p_holm": 1.0,
+      "signifikan_holm": false
+    },
+    {
+      "code": "P4",
+      "a": "A2",
+      "b": "A4",
+      "metric": "factual",
+      "label": "FactualCorrectness",
+      "n": 97,
+      "mean_a": 41.175257731958766,
+      "mean_b": 43.824742268041234,
+      "delta": -2.649484536082474,
+      "naik": 30,
+      "sama": 26,
+      "turun": 41,
+      "p": 0.22552873717603406,
+      "dz": -0.08138303632017331,
+      "ci": [
+        -9.340979381443299,
+        3.886855670103089
+      ],
+      "p_holm": 0.6765862115281022,
+      "signifikan_holm": false
+    }
+  ],
+  "secondary": [
+    {
+      "code": "P1",
+      "a": "A1",
+      "b": "A0x",
+      "metric": "context_precision",
+      "label": "Context Precision",
+      "n": 97,
+      "mean_a": 53.01546391311734,
+      "mean_b": 60.30498281305379,
+      "delta": -7.289518899936462,
+      "naik": 35,
+      "sama": 23,
+      "turun": 39,
+      "p": 0.20389842394955604,
+      "dz": -0.15027390009212815,
+      "ci": [
+        -16.957903778818764,
+        2.212199311938716
+      ]
+    },
+    {
+      "code": "P1",
+      "a": "A1",
+      "b": "A0x",
+      "metric": "answer_relevance",
+      "label": "Answer Relevancy",
+      "n": 97,
+      "mean_a": 72.1768415636342,
+      "mean_b": 82.49632113139762,
+      "delta": -10.319479567763425,
+      "naik": 38,
+      "sama": 10,
+      "turun": 49,
+      "p": 0.043502831248947244,
+      "dz": -0.2643711341786132,
+      "ci": [
+        -18.077852052624312,
+        -2.7716312468708924
+      ]
+    },
+    {
+      "code": "P1",
+      "a": "A1",
+      "b": "A0x",
+      "metric": "faithfulness",
+      "label": "Faithfulness (konteks generator)",
+      "n": 97,
+      "mean_a": 74.19764423494755,
+      "mean_b": 82.38661639889656,
+      "delta": -8.188972163949025,
+      "naik": 32,
+      "sama": 14,
+      "turun": 51,
+      "p": 0.002551418203177684,
+      "dz": -0.31044774476136094,
+      "ci": [
+        -13.555661580217931,
+        -3.1925679181242836
+      ]
+    },
+    {
+      "code": "P2",
+      "a": "A2",
+      "b": "A1",
+      "metric": "context_precision",
+      "label": "Context Precision",
+      "n": 97,
+      "mean_a": 71.8814432946918,
+      "mean_b": 53.01546391311734,
+      "delta": 18.86597938157446,
+      "naik": 42,
+      "sama": 40,
+      "turun": 15,
+      "p": 3.3950384597146426e-05,
+      "dz": 0.49639463670034484,
+      "ci": [
+        11.654925544922616,
+        26.730240549508327
+      ]
+    },
+    {
+      "code": "P2",
+      "a": "A2",
+      "b": "A1",
+      "metric": "answer_relevance",
+      "label": "Answer Relevancy",
+      "n": 97,
+      "mean_a": 84.60017603706605,
+      "mean_b": 72.1768415636342,
+      "delta": 12.423334473431836,
+      "naik": 52,
+      "sama": 9,
+      "turun": 36,
+      "p": 0.0052394020098375065,
+      "dz": 0.37082203062593877,
+      "ci": [
+        5.994585843361113,
+        19.318111446579998
+      ]
+    },
+    {
+      "code": "P2",
+      "a": "A2",
+      "b": "A1",
+      "metric": "faithfulness",
+      "label": "Faithfulness (konteks generator)",
+      "n": 97,
+      "mean_a": 84.09028972173303,
+      "mean_b": 74.19764423494755,
+      "delta": 9.892645486785476,
+      "naik": 56,
+      "sama": 14,
+      "turun": 27,
+      "p": 8.424226669073689e-05,
+      "dz": 0.41454563697247865,
+      "ci": [
+        5.485320446118058,
+        14.832346473912525
+      ]
+    },
+    {
+      "code": "P3",
+      "a": "A2",
+      "b": "A3",
+      "metric": "context_precision",
+      "label": "Context Precision",
+      "n": 97,
+      "mean_a": 71.8814432946918,
+      "mean_b": 77.68184420954474,
+      "delta": -5.800400914852935,
+      "naik": 34,
+      "sama": 15,
+      "turun": 48,
+      "p": 0.13107763524478533,
+      "dz": -0.13967769973166957,
+      "ci": [
+        -14.100909218726953,
+        2.3830183278926573
+      ]
+    },
+    {
+      "code": "P3",
+      "a": "A2",
+      "b": "A3",
+      "metric": "answer_relevance",
+      "label": "Answer Relevancy",
+      "n": 97,
+      "mean_a": 84.60017603706605,
+      "mean_b": 86.99944127240758,
+      "delta": -2.3992652353415385,
+      "naik": 47,
+      "sama": 7,
+      "turun": 43,
+      "p": 0.9855538131498116,
+      "dz": -0.11207790224355017,
+      "ci": [
+        -6.938264902800762,
+        1.5860660335948795
+      ]
+    },
+    {
+      "code": "P3",
+      "a": "A2",
+      "b": "A3",
+      "metric": "faithfulness",
+      "label": "Faithfulness (konteks generator)",
+      "n": 97,
+      "mean_a": 84.09028972173303,
+      "mean_b": 87.53966024205563,
+      "delta": -3.4493705203226126,
+      "naik": 30,
+      "sama": 19,
+      "turun": 48,
+      "p": 0.08126073008999364,
+      "dz": -0.2018057281246435,
+      "ci": [
+        -6.96435235263692,
+        -0.10446626894095076
+      ]
+    },
+    {
+      "code": "P4",
+      "a": "A2",
+      "b": "A4",
+      "metric": "context_precision",
+      "label": "Context Precision",
+      "n": 97,
+      "mean_a": 71.8814432946918,
+      "mean_b": 77.12628865650083,
+      "delta": -5.244845361809025,
+      "naik": 20,
+      "sama": 24,
+      "turun": 53,
+      "p": 0.022461995113073906,
+      "dz": -0.16814190433231418,
+      "ci": [
+        -11.414769473309423,
+        1.0553765739790033
+      ]
+    },
+    {
+      "code": "P4",
+      "a": "A2",
+      "b": "A4",
+      "metric": "answer_relevance",
+      "label": "Answer Relevancy",
+      "n": 97,
+      "mean_a": 84.60017603706605,
+      "mean_b": 85.15054247704863,
+      "delta": -0.5503664399826069,
+      "naik": 44,
+      "sama": 12,
+      "turun": 41,
+      "p": 0.6692177218401376,
+      "dz": -0.021737297326910685,
+      "ci": [
+        -5.519141378625335,
+        4.474317772875073
+      ]
+    },
+    {
+      "code": "P4",
+      "a": "A2",
+      "b": "A4",
+      "metric": "faithfulness",
+      "label": "Faithfulness (konteks generator)",
+      "n": 97,
+      "mean_a": 84.09028972173303,
+      "mean_b": 84.23681558990837,
+      "delta": -0.14652586817535362,
+      "naik": 38,
+      "sama": 22,
+      "turun": 37,
+      "p": 0.8533486366409991,
+      "dz": -0.007955073771814538,
+      "ci": [
+        -3.6497445137909055,
+        3.6948177109259577
+      ]
+    }
+  ],
+  "containment": [
+    {
+      "code": "P1",
+      "a": "A1",
+      "b": "A0x",
+      "n": 93,
+      "rate_a": 51.61290322580645,
+      "rate_b": 51.61290322580645,
+      "a_only": 22,
+      "b_only": 22,
+      "p": 1.0
+    },
+    {
+      "code": "P2",
+      "a": "A2",
+      "b": "A1",
+      "n": 93,
+      "rate_a": 81.72043010752688,
+      "rate_b": 51.61290322580645,
+      "a_only": 28,
+      "b_only": 0,
+      "p": 7.450580596923828e-09
+    },
+    {
+      "code": "P3",
+      "a": "A2",
+      "b": "A3",
+      "n": 93,
+      "rate_a": 81.72043010752688,
+      "rate_b": 93.54838709677419,
+      "a_only": 2,
+      "b_only": 13,
+      "p": 0.00738525390625
+    },
+    {
+      "code": "P4",
+      "a": "A2",
+      "b": "A4",
+      "n": 93,
+      "rate_a": 81.72043010752688,
+      "rate_b": 81.72043010752688,
+      "a_only": 5,
+      "b_only": 5,
+      "p": 1.0
+    }
+  ],
+  "sensitivity_a2r": [
+    {
+      "code": "P2",
+      "a": "A2r",
+      "b": "A1",
+      "metric": "context_recall",
+      "label": "Context Recall",
+      "n": 97,
+      "mean_a": 74.26853215513009,
+      "mean_b": 54.852724594992644,
+      "delta": 19.41580756013746,
+      "naik": 28,
+      "sama": 68,
+      "turun": 1,
+      "p": 1.8719777946900138e-05,
+      "dz": 0.5213280062674205,
+      "ci": [
+        12.542955326460483,
+        26.804123711340207
+      ]
+    },
+    {
+      "code": "P2",
+      "a": "A2r",
+      "b": "A1",
+      "metric": "factual",
+      "label": "FactualCorrectness",
+      "n": 97,
+      "mean_a": 44.77319587628866,
+      "mean_b": 34.31958762886598,
+      "delta": 10.45360824742268,
+      "naik": 51,
+      "sama": 21,
+      "turun": 25,
+      "p": 0.001211126912468145,
+      "dz": 0.3368190255400849,
+      "ci": [
+        4.401804123711341,
+        16.639432989690718
+      ]
+    },
+    {
+      "code": "P3",
+      "a": "A2r",
+      "b": "A3",
+      "metric": "context_recall",
+      "label": "Context Recall",
+      "n": 97,
+      "mean_a": 74.26853215513009,
+      "mean_b": 89.03780068728521,
+      "delta": -14.769268532155131,
+      "naik": 5,
+      "sama": 70,
+      "turun": 22,
+      "p": 0.0009797340147363073,
+      "dz": -0.3522347805906565,
+      "ci": [
+        -23.122361315660285,
+        -6.958762886597938
+      ]
+    },
+    {
+      "code": "P3",
+      "a": "A2r",
+      "b": "A3",
+      "metric": "factual",
+      "label": "FactualCorrectness",
+      "n": 97,
+      "mean_a": 44.77319587628866,
+      "mean_b": 43.01030927835052,
+      "delta": 1.7628865979381443,
+      "naik": 41,
+      "sama": 20,
+      "turun": 36,
+      "p": 0.5405779203283878,
+      "dz": 0.05922340262519757,
+      "ci": [
+        -4.082474226804123,
+        7.701288659793811
+      ]
+    },
+    {
+      "code": "P4",
+      "a": "A2r",
+      "b": "A4",
+      "metric": "context_recall",
+      "label": "Context Recall",
+      "n": 97,
+      "mean_a": 74.26853215513009,
+      "mean_b": 75.54000981836033,
+      "delta": -1.2714776632302403,
+      "naik": 7,
+      "sama": 83,
+      "turun": 7,
+      "p": 0.6977107412762615,
+      "dz": -0.03929742042782776,
+      "ci": [
+        -7.560137457044672,
+        4.94931271477662
+      ]
+    },
+    {
+      "code": "P4",
+      "a": "A2r",
+      "b": "A4",
+      "metric": "factual",
+      "label": "FactualCorrectness",
+      "n": 97,
+      "mean_a": 44.77319587628866,
+      "mean_b": 43.824742268041234,
+      "delta": 0.948453608247423,
+      "naik": 36,
+      "sama": 20,
+      "turun": 41,
+      "p": 0.8869327040248578,
+      "dz": 0.02949539386984452,
+      "ci": [
+        -5.577577319587628,
+        7.340463917525769
+      ]
+    }
+  ],
+  "noise_a2_vs_a2r": {
+    "context_recall": {
+      "n": 97,
+      "mean_a": 74.26853215513009,
+      "mean_b": 74.26853215513009,
+      "delta": 0.0,
+      "naik": 0,
+      "sama": 97,
+      "turun": 0,
+      "p": 1.0,
+      "dz": null,
+      "ci": [
+        0.0,
+        0.0
+      ]
+    },
+    "factual": {
+      "n": 97,
+      "mean_a": 44.77319587628866,
+      "mean_b": 41.175257731958766,
+      "delta": 3.597938144329897,
+      "naik": 41,
+      "sama": 30,
+      "turun": 26,
+      "p": 0.10904527623206664,
+      "dz": 0.16457066679103388,
+      "ci": [
+        -0.6082474226804118,
+        8.02061855670103
+      ]
+    },
+    "context_precision": {
+      "n": 97,
+      "mean_a": 71.65807559711763,
+      "mean_b": 71.8814432946918,
+      "delta": -0.22336769757416947,
+      "naik": 0,
+      "sama": 96,
+      "turun": 1,
+      "p": 0.31731050786291415,
+      "dz": -0.10153461651336192,
+      "ci": [
+        -0.6701030927225083,
+        0.0
+      ]
+    },
+    "answer_relevance": {
+      "n": 97,
+      "mean_a": 84.71940322904975,
+      "mean_b": 84.60017603706605,
+      "delta": 0.11922719198371332,
+      "naik": 40,
+      "sama": 20,
+      "turun": 37,
+      "p": 0.5339486374132485,
+      "dz": 0.024445018622285392,
+      "ci": [
+        -0.8646982921697156,
+        1.050091447852229
+      ]
+    },
+    "faithfulness": {
+      "n": 97,
+      "mean_a": 83.10588248498055,
+      "mean_b": 84.09028972173303,
+      "delta": -0.9844072367524617,
+      "naik": 35,
+      "sama": 27,
+      "turun": 35,
+      "p": 0.4751572851875637,
+      "dz": -0.06594175078732767,
+      "ci": [
+        -3.9834740233511843,
+        1.8949568029237869
+      ]
+    }
+  },
+  "sens_a0": [
+    {
+      "code": "P1 (A0 HNSW)",
+      "a": "A1",
+      "b": "A0",
+      "metric": "context_recall",
+      "label": "Context Recall",
+      "n": 97,
+      "mean_a": 54.852724594992644,
+      "mean_b": 70.8836524300442,
+      "delta": -16.030927835051543,
+      "naik": 17,
+      "sama": 45,
+      "turun": 35,
+      "p": 0.0068520593859901086,
+      "dz": -0.2857466887081481,
+      "ci": [
+        -27.337628865979383,
+        -5.085481099656363
+      ]
+    },
+    {
+      "code": "P1 (A0 HNSW)",
+      "a": "A1",
+      "b": "A0",
+      "metric": "factual",
+      "label": "FactualCorrectness",
+      "n": 97,
+      "mean_a": 34.31958762886598,
+      "mean_b": 36.845360824742265,
+      "delta": -2.5257731958762886,
+      "naik": 30,
+      "sama": 23,
+      "turun": 44,
+      "p": 0.3696611693835816,
+      "dz": -0.06814287206720061,
+      "ci": [
+        -9.876288659793815,
+        4.783505154639175
+      ]
+    },
+    {
+      "code": "P1 (A0 HNSW)",
+      "a": "A1",
+      "b": "A0",
+      "metric": "containment",
+      "label": "Bukti-terambil@5",
+      "n": 93,
+      "rate_a": 51.61290322580645,
+      "rate_b": 47.31182795698925,
+      "a_only": 25,
+      "b_only": 21,
+      "p": 0.6587380770236564
+    }
+  ],
+  "replication": [
+    {
+      "code": "R0",
+      "a": "H2-treat",
+      "b": "H2-base",
+      "metric": "context_recall",
+      "label": "Context Recall",
+      "question": "H2 tesis (korpus lama, baseline HNSW)",
+      "n": 97,
+      "mean_a": 77.70495827196858,
+      "mean_b": 60.85910652920962,
+      "delta": 16.84585174275896,
+      "naik": 31,
+      "sama": 57,
+      "turun": 9,
+      "p": 0.011670739721885356,
+      "dz": 0.31668516614399805,
+      "ci": [
+        6.253190967108493,
+        27.406541482572397
+      ]
+    },
+    {
+      "code": "R0",
+      "a": "H2-treat",
+      "b": "H2-base",
+      "metric": "factual",
+      "label": "FactualCorrectness",
+      "question": "H2 tesis (korpus lama, baseline HNSW)",
+      "n": 97,
+      "mean_a": 46.77319587628866,
+      "mean_b": 31.721649484536083,
+      "delta": 15.051546391752577,
+      "naik": 54,
+      "sama": 14,
+      "turun": 29,
+      "p": 0.0003252836034132125,
+      "dz": 0.39891079026394893,
+      "ci": [
+        7.515206185567011,
+        22.33015463917525
+      ]
+    },
+    {
+      "code": "R0",
+      "a": "H2-treat",
+      "b": "H2-base",
+      "metric": "context_precision",
+      "label": "Context Precision",
+      "question": "H2 tesis (korpus lama, baseline HNSW)",
+      "n": 97,
+      "mean_a": 74.32130583747816,
+      "mean_b": 43.6368843037131,
+      "delta": 30.684421533765057,
+      "naik": 63,
+      "sama": 10,
+      "turun": 24,
+      "p": 9.330795638039787e-08,
+      "dz": 0.6389529267066293,
+      "ci": [
+        21.09085051520924,
+        39.922680410236836
+      ]
+    },
+    {
+      "code": "R0",
+      "a": "H2-treat",
+      "b": "H2-base",
+      "metric": "answer_relevance",
+      "label": "Answer Relevancy",
+      "question": "H2 tesis (korpus lama, baseline HNSW)",
+      "n": 97,
+      "mean_a": 85.121170278698,
+      "mean_b": 69.60717737312869,
+      "delta": 15.51399290556931,
+      "naik": 57,
+      "sama": 7,
+      "turun": 33,
+      "p": 0.0009757991400412459,
+      "dz": 0.37510988071370216,
+      "ci": [
+        7.3997883782628655,
+        23.73421200026159
+      ]
+    },
+    {
+      "code": "R0",
+      "a": "H2-treat",
+      "b": "H2-base",
+      "metric": "faithfulness",
+      "label": "Faithfulness (konteks generator)",
+      "question": "H2 tesis (korpus lama, baseline HNSW)",
+      "n": 97,
+      "mean_a": 84.41541878208038,
+      "mean_b": 76.30957959566207,
+      "delta": 8.105839186418326,
+      "naik": 56,
+      "sama": 16,
+      "turun": 25,
+      "p": 0.0005573216451643325,
+      "dz": 0.3483860580527985,
+      "ci": [
+        3.712894205636019,
+        12.864227384324789
+      ]
+    },
+    {
+      "code": "R0",
+      "a": "H2-treat",
+      "b": "H2-base",
+      "metric": "containment",
+      "label": "Bukti-terambil@5",
+      "question": "H2 tesis (korpus lama, baseline HNSW)",
+      "n": 93,
+      "rate_a": 83.87096774193549,
+      "rate_b": 35.483870967741936,
+      "a_only": 50,
+      "b_only": 5,
+      "p": 2.1358426138817777e-10
+    },
+    {
+      "code": "R0x",
+      "a": "H2-treat",
+      "b": "B0x",
+      "metric": "context_recall",
+      "label": "Context Recall",
+      "question": "H2 tesis, baseline dengan pencarian eksak",
+      "n": 97,
+      "mean_a": 77.70495827196858,
+      "mean_b": 75.96956308296515,
+      "delta": 1.735395189003437,
+      "naik": 21,
+      "sama": 60,
+      "turun": 16,
+      "p": 0.7886413571759638,
+      "dz": 0.03607315635135312,
+      "ci": [
+        -7.560567010309277,
+        11.065292096219933
+      ]
+    },
+    {
+      "code": "R0x",
+      "a": "H2-treat",
+      "b": "B0x",
+      "metric": "factual",
+      "label": "FactualCorrectness",
+      "question": "H2 tesis, baseline dengan pencarian eksak",
+      "n": 97,
+      "mean_a": 46.77319587628866,
+      "mean_b": 40.31958762886598,
+      "delta": 6.453608247422681,
+      "naik": 48,
+      "sama": 15,
+      "turun": 34,
+      "p": 0.08253845292451464,
+      "dz": 0.19688086668563293,
+      "ci": [
+        0.10283505154639183,
+        12.969587628865971
+      ]
+    },
+    {
+      "code": "R0x",
+      "a": "H2-treat",
+      "b": "B0x",
+      "metric": "context_precision",
+      "label": "Context Precision",
+      "question": "H2 tesis, baseline dengan pencarian eksak",
+      "n": 97,
+      "mean_a": 74.32130583747816,
+      "mean_b": 58.57531500135414,
+      "delta": 15.745990836124008,
+      "naik": 56,
+      "sama": 10,
+      "turun": 31,
+      "p": 0.0005686446857179242,
+      "dz": 0.3700933418249497,
+      "ci": [
+        7.098976232315365,
+        24.100873424417294
+      ]
+    },
+    {
+      "code": "R0x",
+      "a": "H2-treat",
+      "b": "B0x",
+      "metric": "answer_relevance",
+      "label": "Answer Relevancy",
+      "question": "H2 tesis, baseline dengan pencarian eksak",
+      "n": 97,
+      "mean_a": 85.121170278698,
+      "mean_b": 82.59183431659234,
+      "delta": 2.5293359621056752,
+      "naik": 53,
+      "sama": 7,
+      "turun": 37,
+      "p": 0.12776716060333365,
+      "dz": 0.08377362286279466,
+      "ci": [
+        -3.4058666830589606,
+        8.58777109249515
+      ]
+    },
+    {
+      "code": "R0x",
+      "a": "H2-treat",
+      "b": "B0x",
+      "metric": "faithfulness",
+      "label": "Faithfulness (konteks generator)",
+      "question": "H2 tesis, baseline dengan pencarian eksak",
+      "n": 97,
+      "mean_a": 84.41541878208038,
+      "mean_b": 82.94751926195225,
+      "delta": 1.4678995201281435,
+      "naik": 51,
+      "sama": 14,
+      "turun": 32,
+      "p": 0.18412456155684065,
+      "dz": 0.08707628518255667,
+      "ci": [
+        -1.8878856134768802,
+        4.717783219071875
+      ]
+    },
+    {
+      "code": "R0x",
+      "a": "H2-treat",
+      "b": "B0x",
+      "metric": "containment",
+      "label": "Bukti-terambil@5",
+      "question": "H2 tesis, baseline dengan pencarian eksak",
+      "n": 93,
+      "rate_a": 83.87096774193549,
+      "rate_b": 50.53763440860215,
+      "a_only": 38,
+      "b_only": 7,
+      "p": 3.1213096463034162e-06
+    },
+    {
+      "code": "R1",
+      "a": "A2",
+      "b": "A0",
+      "metric": "context_recall",
+      "label": "Context Recall",
+      "question": "H2 pada korpus bersih (A0 HNSW)",
+      "n": 97,
+      "mean_a": 74.26853215513009,
+      "mean_b": 70.8836524300442,
+      "delta": 3.3848797250859106,
+      "naik": 22,
+      "sama": 61,
+      "turun": 14,
+      "p": 0.7526500341492327,
+      "dz": 0.06594665010557874,
+      "ci": [
+        -6.80455326460481,
+        13.436426116838486
+      ]
+    },
+    {
+      "code": "R1",
+      "a": "A2",
+      "b": "A0",
+      "metric": "factual",
+      "label": "FactualCorrectness",
+      "question": "H2 pada korpus bersih (A0 HNSW)",
+      "n": 97,
+      "mean_a": 41.175257731958766,
+      "mean_b": 36.845360824742265,
+      "delta": 4.329896907216495,
+      "naik": 40,
+      "sama": 19,
+      "turun": 38,
+      "p": 0.3593534813302446,
+      "dz": 0.10893416938797772,
+      "ci": [
+        -3.618556701030928,
+        12.185824742268037
+      ]
+    },
+    {
+      "code": "R1",
+      "a": "A2",
+      "b": "A0",
+      "metric": "context_precision",
+      "label": "Context Precision",
+      "question": "H2 pada korpus bersih (A0 HNSW)",
+      "n": 97,
+      "mean_a": 71.8814432946918,
+      "mean_b": 58.32044673062667,
+      "delta": 13.560996564065116,
+      "naik": 56,
+      "sama": 12,
+      "turun": 29,
+      "p": 0.004358986671788477,
+      "dz": 0.2960463244336811,
+      "ci": [
+        4.396155500184335,
+        22.589311282679212
+      ]
+    },
+    {
+      "code": "R1",
+      "a": "A2",
+      "b": "A0",
+      "metric": "answer_relevance",
+      "label": "Answer Relevancy",
+      "question": "H2 pada korpus bersih (A0 HNSW)",
+      "n": 97,
+      "mean_a": 84.60017603706605,
+      "mean_b": 78.99535115393019,
+      "delta": 5.604824883135856,
+      "naik": 57,
+      "sama": 7,
+      "turun": 33,
+      "p": 0.021935045499661625,
+      "dz": 0.18426171949292314,
+      "ci": [
+        -0.3282604481324242,
+        11.842704432397154
+      ]
+    },
+    {
+      "code": "R1",
+      "a": "A2",
+      "b": "A0",
+      "metric": "faithfulness",
+      "label": "Faithfulness (konteks generator)",
+      "question": "H2 pada korpus bersih (A0 HNSW)",
+      "n": 97,
+      "mean_a": 84.09028972173303,
+      "mean_b": 83.00069161348723,
+      "delta": 1.0895981082457733,
+      "naik": 43,
+      "sama": 15,
+      "turun": 39,
+      "p": 0.4981946395766601,
+      "dz": 0.05583812503744439,
+      "ci": [
+        -2.74058972199891,
+        5.161725426298652
+      ]
+    },
+    {
+      "code": "R1",
+      "a": "A2",
+      "b": "A0",
+      "metric": "containment",
+      "label": "Bukti-terambil@5",
+      "question": "H2 pada korpus bersih (A0 HNSW)",
+      "n": 93,
+      "rate_a": 81.72043010752688,
+      "rate_b": 47.31182795698925,
+      "a_only": 40,
+      "b_only": 8,
+      "p": 3.305266709219268e-06
+    },
+    {
+      "code": "R1x",
+      "a": "A2",
+      "b": "A0x",
+      "metric": "context_recall",
+      "label": "Context Recall",
+      "question": "H2 pada korpus bersih (A0 eksak)",
+      "n": 97,
+      "mean_a": 74.26853215513009,
+      "mean_b": 74.38880706921944,
+      "delta": -0.1202749140893464,
+      "naik": 20,
+      "sama": 60,
+      "turun": 17,
+      "p": 0.8898108605140675,
+      "dz": -0.002427162798813299,
+      "ci": [
+        -9.777061855670103,
+        9.296821305841904
+      ]
+    },
+    {
+      "code": "R1x",
+      "a": "A2",
+      "b": "A0x",
+      "metric": "factual",
+      "label": "FactualCorrectness",
+      "question": "H2 pada korpus bersih (A0 eksak)",
+      "n": 97,
+      "mean_a": 41.175257731958766,
+      "mean_b": 40.65979381443299,
+      "delta": 0.5154639175257731,
+      "naik": 37,
+      "sama": 19,
+      "turun": 41,
+      "p": 0.9483627522132427,
+      "dz": 0.014900208418450694,
+      "ci": [
+        -6.072164948453608,
+        7.484793814432986
+      ]
+    },
+    {
+      "code": "R1x",
+      "a": "A2",
+      "b": "A0x",
+      "metric": "context_precision",
+      "label": "Context Precision",
+      "question": "H2 pada korpus bersih (A0 eksak)",
+      "n": 97,
+      "mean_a": 71.8814432946918,
+      "mean_b": 60.30498281305379,
+      "delta": 11.576460481637996,
+      "naik": 53,
+      "sama": 12,
+      "turun": 32,
+      "p": 0.01158605460786638,
+      "dz": 0.26243104739751133,
+      "ci": [
+        2.728772911392354,
+        20.063108533626142
+      ]
+    },
+    {
+      "code": "R1x",
+      "a": "A2",
+      "b": "A0x",
+      "metric": "answer_relevance",
+      "label": "Answer Relevancy",
+      "question": "H2 pada korpus bersih (A0 eksak)",
+      "n": 97,
+      "mean_a": 84.60017603706605,
+      "mean_b": 82.49632113139762,
+      "delta": 2.10385490566841,
+      "naik": 45,
+      "sama": 11,
+      "turun": 41,
+      "p": 0.28074278632242544,
+      "dz": 0.0694094441371084,
+      "ci": [
+        -3.676291448685371,
+        8.209581211545718
+      ]
+    },
+    {
+      "code": "R1x",
+      "a": "A2",
+      "b": "A0x",
+      "metric": "faithfulness",
+      "label": "Faithfulness (konteks generator)",
+      "question": "H2 pada korpus bersih (A0 eksak)",
+      "n": 97,
+      "mean_a": 84.09028972173303,
+      "mean_b": 82.38661639889656,
+      "delta": 1.7036733228364516,
+      "naik": 44,
+      "sama": 15,
+      "turun": 38,
+      "p": 0.5114711500580302,
+      "dz": 0.08657469205681373,
+      "ci": [
+        -2.0199305213518364,
+        5.664134503980623
+      ]
+    },
+    {
+      "code": "R1x",
+      "a": "A2",
+      "b": "A0x",
+      "metric": "containment",
+      "label": "Bukti-terambil@5",
+      "question": "H2 pada korpus bersih (A0 eksak)",
+      "n": 93,
+      "rate_a": 81.72043010752688,
+      "rate_b": 51.61290322580645,
+      "a_only": 36,
+      "b_only": 8,
+      "p": 2.5448598648836196e-05
+    },
+    {
+      "code": "R2",
+      "a": "B0x",
+      "b": "H2-base",
+      "metric": "context_recall",
+      "label": "Context Recall",
+      "question": "baseline tesis: eksak vs HNSW (efek recall indeks)",
+      "n": 97,
+      "mean_a": 75.96956308296515,
+      "mean_b": 60.85910652920962,
+      "delta": 15.110456553755524,
+      "naik": 21,
+      "sama": 72,
+      "turun": 4,
+      "p": 0.000498059425924236,
+      "dz": 0.3825803921230755,
+      "ci": [
+        7.215635738831615,
+        23.220422189494354
+      ]
+    },
+    {
+      "code": "R2",
+      "a": "B0x",
+      "b": "H2-base",
+      "metric": "factual",
+      "label": "FactualCorrectness",
+      "question": "baseline tesis: eksak vs HNSW (efek recall indeks)",
+      "n": 97,
+      "mean_a": 40.31958762886598,
+      "mean_b": 31.721649484536083,
+      "delta": 8.597938144329897,
+      "naik": 46,
+      "sama": 26,
+      "turun": 25,
+      "p": 0.014750175619287015,
+      "dz": 0.25421573180782603,
+      "ci": [
+        1.927835051546392,
+        15.381701030927832
+      ]
+    },
+    {
+      "code": "R2",
+      "a": "B0x",
+      "b": "H2-base",
+      "metric": "context_precision",
+      "label": "Context Precision",
+      "question": "baseline tesis: eksak vs HNSW (efek recall indeks)",
+      "n": 97,
+      "mean_a": 58.57531500135414,
+      "mean_b": 43.6368843037131,
+      "delta": 14.938430697641047,
+      "naik": 35,
+      "sama": 50,
+      "turun": 12,
+      "p": 9.792371224901429e-05,
+      "dz": 0.44800298228472524,
+      "ci": [
+        8.551582187151633,
+        21.880011453010688
+      ]
+    },
+    {
+      "code": "R2",
+      "a": "B0x",
+      "b": "H2-base",
+      "metric": "answer_relevance",
+      "label": "Answer Relevancy",
+      "question": "baseline tesis: eksak vs HNSW (efek recall indeks)",
+      "n": 97,
+      "mean_a": 82.59183431659234,
+      "mean_b": 69.60717737312869,
+      "delta": 12.984656943463635,
+      "naik": 52,
+      "sama": 12,
+      "turun": 33,
+      "p": 0.0046140840496466905,
+      "dz": 0.35179952103651296,
+      "ci": [
+        5.674017520275885,
+        20.43929536173459
+      ]
+    },
+    {
+      "code": "R2",
+      "a": "B0x",
+      "b": "H2-base",
+      "metric": "faithfulness",
+      "label": "Faithfulness (konteks generator)",
+      "question": "baseline tesis: eksak vs HNSW (efek recall indeks)",
+      "n": 97,
+      "mean_a": 82.94751926195225,
+      "mean_b": 76.30957959566207,
+      "delta": 6.637939666290182,
+      "naik": 47,
+      "sama": 22,
+      "turun": 28,
+      "p": 0.005562254633347347,
+      "dz": 0.327020611554532,
+      "ci": [
+        2.856696460755739,
+        10.917753995717913
+      ]
+    },
+    {
+      "code": "R2",
+      "a": "B0x",
+      "b": "H2-base",
+      "metric": "containment",
+      "label": "Bukti-terambil@5",
+      "question": "baseline tesis: eksak vs HNSW (efek recall indeks)",
+      "n": 93,
+      "rate_a": 50.53763440860215,
+      "rate_b": 35.483870967741936,
+      "a_only": 14,
+      "b_only": 0,
+      "p": 0.0001220703125
+    },
+    {
+      "code": "R2b",
+      "a": "A0x",
+      "b": "B0x",
+      "metric": "context_recall",
+      "label": "Context Recall",
+      "question": "baseline eksak: korpus bersih vs lama (efek salinan ganda)",
+      "n": 97,
+      "mean_a": 74.38880706921944,
+      "mean_b": 75.96956308296515,
+      "delta": -1.5807560137457046,
+      "naik": 2,
+      "sama": 92,
+      "turun": 3,
+      "p": 0.2228009911811345,
+      "dz": -0.1112564939299051,
+      "ci": [
+        -4.6743986254295535,
+        0.8591065292096218
+      ]
+    },
+    {
+      "code": "R2b",
+      "a": "A0x",
+      "b": "B0x",
+      "metric": "factual",
+      "label": "FactualCorrectness",
+      "question": "baseline eksak: korpus bersih vs lama (efek salinan ganda)",
+      "n": 97,
+      "mean_a": 40.65979381443299,
+      "mean_b": 40.31958762886598,
+      "delta": 0.3402061855670103,
+      "naik": 39,
+      "sama": 27,
+      "turun": 31,
+      "p": 0.5682111665778092,
+      "dz": 0.014214414001422605,
+      "ci": [
+        -4.402319587628866,
+        5.185567010309279
+      ]
+    },
+    {
+      "code": "R2b",
+      "a": "A0x",
+      "b": "B0x",
+      "metric": "context_precision",
+      "label": "Context Precision",
+      "question": "baseline eksak: korpus bersih vs lama (efek salinan ganda)",
+      "n": 97,
+      "mean_a": 60.30498281305379,
+      "mean_b": 58.57531500135414,
+      "delta": 1.7296678116996458,
+      "naik": 15,
+      "sama": 71,
+      "turun": 11,
+      "p": 0.21305680629328916,
+      "dz": 0.13416888024536214,
+      "ci": [
+        -0.7676116840309214,
+        4.261168384000049
+      ]
+    },
+    {
+      "code": "R2b",
+      "a": "A0x",
+      "b": "B0x",
+      "metric": "answer_relevance",
+      "label": "Answer Relevancy",
+      "question": "baseline eksak: korpus bersih vs lama (efek salinan ganda)",
+      "n": 97,
+      "mean_a": 82.49632113139762,
+      "mean_b": 82.59183431659234,
+      "delta": -0.09551318519469564,
+      "naik": 47,
+      "sama": 14,
+      "turun": 36,
+      "p": 0.11833365409117498,
+      "dz": -0.005697191723905721,
+      "ci": [
+        -3.5206244853897273,
+        3.058419490733598
+      ]
+    },
+    {
+      "code": "R2b",
+      "a": "A0x",
+      "b": "B0x",
+      "metric": "faithfulness",
+      "label": "Faithfulness (konteks generator)",
+      "question": "baseline eksak: korpus bersih vs lama (efek salinan ganda)",
+      "n": 97,
+      "mean_a": 82.38661639889656,
+      "mean_b": 82.94751926195225,
+      "delta": -0.5609028630556829,
+      "naik": 36,
+      "sama": 23,
+      "turun": 38,
+      "p": 0.8314491799328275,
+      "dz": -0.039544929701006884,
+      "ci": [
+        -3.515146043818724,
+        2.154469858438172
+      ]
+    },
+    {
+      "code": "R2b",
+      "a": "A0x",
+      "b": "B0x",
+      "metric": "containment",
+      "label": "Bukti-terambil@5",
+      "question": "baseline eksak: korpus bersih vs lama (efek salinan ganda)",
+      "n": 93,
+      "rate_a": 51.61290322580645,
+      "rate_b": 50.53763440860215,
+      "a_only": 1,
+      "b_only": 0,
+      "p": 1.0
+    },
+    {
+      "code": "R3",
+      "a": "A2",
+      "b": "H2-treat",
+      "metric": "context_recall",
+      "label": "Context Recall",
+      "question": "parent-child: korpus bersih vs lama",
+      "n": 97,
+      "mean_a": 74.26853215513009,
+      "mean_b": 77.70495827196858,
+      "delta": -3.436426116838488,
+      "naik": 1,
+      "sama": 91,
+      "turun": 5,
+      "p": 0.14861399645521173,
+      "dz": -0.1506284193517368,
+      "ci": [
+        -8.247422680412372,
+        1.0309278350515463
+      ]
+    },
+    {
+      "code": "R3",
+      "a": "A2",
+      "b": "H2-treat",
+      "metric": "factual",
+      "label": "FactualCorrectness",
+      "question": "parent-child: korpus bersih vs lama",
+      "n": 97,
+      "mean_a": 41.175257731958766,
+      "mean_b": 46.77319587628866,
+      "delta": -5.597938144329897,
+      "naik": 27,
+      "sama": 31,
+      "turun": 39,
+      "p": 0.028419443185828314,
+      "dz": -0.21919835132852475,
+      "ci": [
+        -10.691494845360824,
+        -0.484536082474227
+      ]
+    },
+    {
+      "code": "R3",
+      "a": "A2",
+      "b": "H2-treat",
+      "metric": "context_precision",
+      "label": "Context Precision",
+      "question": "parent-child: korpus bersih vs lama",
+      "n": 97,
+      "mean_a": 71.8814432946918,
+      "mean_b": 74.32130583747816,
+      "delta": -2.4398625427863694,
+      "naik": 7,
+      "sama": 74,
+      "turun": 16,
+      "p": 0.04237539313023394,
+      "dz": -0.19216190350428283,
+      "ci": [
+        -5.24352090452239,
+        -0.2632803551344801
+      ]
+    },
+    {
+      "code": "R3",
+      "a": "A2",
+      "b": "H2-treat",
+      "metric": "answer_relevance",
+      "label": "Answer Relevancy",
+      "question": "parent-child: korpus bersih vs lama",
+      "n": 97,
+      "mean_a": 84.60017603706605,
+      "mean_b": 85.121170278698,
+      "delta": -0.5209942416319605,
+      "naik": 40,
+      "sama": 13,
+      "turun": 44,
+      "p": 0.6653065606434991,
+      "dz": -0.0491835141016799,
+      "ci": [
+        -2.839982455534928,
+        1.1478692531438195
+      ]
+    },
+    {
+      "code": "R3",
+      "a": "A2",
+      "b": "H2-treat",
+      "metric": "faithfulness",
+      "label": "Faithfulness (konteks generator)",
+      "question": "parent-child: korpus bersih vs lama",
+      "n": 97,
+      "mean_a": 84.09028972173303,
+      "mean_b": 84.41541878208038,
+      "delta": -0.3251290603473747,
+      "naik": 33,
+      "sama": 27,
+      "turun": 37,
+      "p": 0.8376889226356912,
+      "dz": -0.025362212041299643,
+      "ci": [
+        -2.8377416825055546,
+        2.2061717288085543
+      ]
+    },
+    {
+      "code": "R3",
+      "a": "A2",
+      "b": "H2-treat",
+      "metric": "containment",
+      "label": "Bukti-terambil@5",
+      "question": "parent-child: korpus bersih vs lama",
+      "n": 93,
+      "rate_a": 81.72043010752688,
+      "rate_b": 83.87096774193549,
+      "a_only": 0,
+      "b_only": 2,
+      "p": 0.5
+    }
+  ]
+}

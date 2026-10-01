@@ -1,0 +1,40 @@
+{
+  "snapshot": {
+    "source": "regulasi-kepegawaian-v3",
+    "target": "regulasi-kepegawaian-paper-h2",
+    "points": 5816,
+    "regulasi_distinct": 74,
+    "memuat_permenpanrb_35_2018": false,
+    "created_at": "2026-09-30T13:25:56.599368"
+  },
+  "pasal": {
+    "source": "regulasi-kepegawaian-paper-h2",
+    "target": "regulasi-kepegawaian-paper-pasal",
+    "child_points": 5803,
+    "units": 2807,
+    "points": 2807,
+    "inactive_units": 14,
+    "median_chars": 612,
+    "max_chars": 88441,
+    "units_over_8000_chars": 242,
+    "created_at": "2026-09-30T13:28:40.134380"
+  },
+  "fixed1000": {
+    "target": "regulasi-kepegawaian-paper-fixed1000",
+    "chunk_size": 1000,
+    "overlap": 100,
+    "points": 11454,
+    "dokumen": 72,
+    "sumber": "documents.extracted_text (deleted_at IS NULL)",
+    "created_at": "2026-09-30T13:41:43.872124"
+  },
+  "fixed5000": {
+    "target": "regulasi-kepegawaian-paper-fixed5000",
+    "chunk_size": 5000,
+    "overlap": 500,
+    "points": 2318,
+    "dokumen": 72,
+    "sumber": "documents.extracted_text (deleted_at IS NULL)",
+    "created_at": "2026-09-30T13:41:43.917193"
+  }
+}

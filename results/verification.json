@@ -1,0 +1,244 @@
+{
+  "generated_at": "2026-10-01T11:03:26.311189",
+  "n_items": 109,
+  "n_in_analysis": 97,
+  "n_er5_evaluable": 93,
+  "max_abs_diff_points": 2.842170943040401e-14,
+  "residual_nip_matches": 0,
+  "ablation_means": {
+    "A0": {
+      "context_recall": {
+        "package": 70.8836524300442,
+        "reported": 70.8836524300442
+      },
+      "context_precision": {
+        "package": 58.320446730626685,
+        "reported": 58.320446730626685
+      },
+      "answer_relevance": {
+        "package": 78.99535115393019,
+        "reported": 78.99535115393016
+      },
+      "faithfulness": {
+        "package": 83.00069161348725,
+        "reported": 83.00069161348723
+      },
+      "factual_correctness": {
+        "package": 36.845360824742265,
+        "reported": 36.845360824742265
+      },
+      "evidence_retrieved_at_5": {
+        "package": 47.31182795698925,
+        "reported": 47.31182795698925
+      }
+    },
+    "A2": {
+      "context_recall": {
+        "package": 74.26853215513009,
+        "reported": 74.26853215513009
+      },
+      "context_precision": {
+        "package": 71.88144329469179,
+        "reported": 71.8814432946918
+      },
+      "answer_relevance": {
+        "package": 84.60017603706603,
+        "reported": 84.60017603706605
+      },
+      "faithfulness": {
+        "package": 84.090289721733,
+        "reported": 84.090289721733
+      },
+      "factual_correctness": {
+        "package": 41.17525773195876,
+        "reported": 41.17525773195876
+      },
+      "evidence_retrieved_at_5": {
+        "package": 81.72043010752688,
+        "reported": 81.72043010752688
+      }
+    },
+    "A1": {
+      "context_recall": {
+        "package": 54.85272459499263,
+        "reported": 54.85272459499263
+      },
+      "context_precision": {
+        "package": 53.01546391311733,
+        "reported": 53.01546391311733
+      },
+      "answer_relevance": {
+        "package": 72.17684156363421,
+        "reported": 72.17684156363421
+      },
+      "faithfulness": {
+        "package": 74.19764423494753,
+        "reported": 74.19764423494756
+      },
+      "factual_correctness": {
+        "package": 34.31958762886599,
+        "reported": 34.319587628865975
+      },
+      "evidence_retrieved_at_5": {
+        "package": 51.61290322580645,
+        "reported": 51.61290322580645
+      }
+    },
+    "A3": {
+      "context_recall": {
+        "package": 89.03780068728523,
+        "reported": 89.03780068728523
+      },
+      "context_precision": {
+        "package": 77.68184420954474,
+        "reported": 77.68184420954474
+      },
+      "answer_relevance": {
+        "package": 86.99944127240758,
+        "reported": 86.99944127240758
+      },
+      "faithfulness": {
+        "package": 87.53966024205565,
+        "reported": 87.53966024205565
+      },
+      "factual_correctness": {
+        "package": 43.01030927835052,
+        "reported": 43.01030927835052
+      },
+      "evidence_retrieved_at_5": {
+        "package": 93.54838709677419,
+        "reported": 93.54838709677419
+      }
+    },
+    "A4": {
+      "context_recall": {
+        "package": 75.54000981836033,
+        "reported": 75.54000981836033
+      },
+      "context_precision": {
+        "package": 77.12628865650085,
+        "reported": 77.12628865650085
+      },
+      "answer_relevance": {
+        "package": 85.15054247704866,
+        "reported": 85.15054247704865
+      },
+      "faithfulness": {
+        "package": 84.23681558990836,
+        "reported": 84.23681558990836
+      },
+      "factual_correctness": {
+        "package": 43.824742268041234,
+        "reported": 43.824742268041234
+      },
+      "evidence_retrieved_at_5": {
+        "package": 81.72043010752688,
+        "reported": 81.72043010752688
+      }
+    },
+    "A2r": {
+      "context_recall": {
+        "package": 74.26853215513009,
+        "reported": 74.26853215513009
+      },
+      "context_precision": {
+        "package": 71.65807559711762,
+        "reported": 71.65807559711763
+      },
+      "answer_relevance": {
+        "package": 84.71940322904976,
+        "reported": 84.71940322904976
+      },
+      "faithfulness": {
+        "package": 83.10588248498054,
+        "reported": 83.10588248498055
+      },
+      "factual_correctness": {
+        "package": 44.77319587628866,
+        "reported": 44.77319587628866
+      },
+      "evidence_retrieved_at_5": {
+        "package": 81.72043010752688,
+        "reported": 81.72043010752688
+      }
+    },
+    "A0x": {
+      "context_recall": {
+        "package": 74.38880706921942,
+        "reported": 74.38880706921944
+      },
+      "context_precision": {
+        "package": 60.30498281305381,
+        "reported": 60.3049828130538
+      },
+      "answer_relevance": {
+        "package": 82.49632113139765,
+        "reported": 82.49632113139762
+      },
+      "faithfulness": {
+        "package": 82.38661639889658,
+        "reported": 82.38661639889658
+      },
+      "factual_correctness": {
+        "package": 40.65979381443299,
+        "reported": 40.65979381443299
+      },
+      "evidence_retrieved_at_5": {
+        "package": 51.61290322580645,
+        "reported": 51.61290322580645
+      }
+    },
+    "B0x": {
+      "context_recall": {
+        "package": 75.96956308296514,
+        "reported": 75.96956308296514
+      },
+      "context_precision": {
+        "package": 58.575315001354156,
+        "reported": 58.57531500135414
+      },
+      "answer_relevance": {
+        "package": 82.59183431659233,
+        "reported": 82.59183431659234
+      },
+      "faithfulness": {
+        "package": 82.94751926195224,
+        "reported": 82.94751926195225
+      },
+      "factual_correctness": {
+        "package": 40.319587628865975,
+        "reported": 40.319587628865975
+      },
+      "evidence_retrieved_at_5": {
+        "package": 50.53763440860215,
+        "reported": 50.53763440860215
+      }
+    }
+  },
+  "table10": {
+    "closed-book": {
+      "n": 97,
+      "factual_correctness": 18.03092783505155,
+      "context_precision": null,
+      "refusals": null
+    },
+    "N0": {
+      "n": 97,
+      "factual_correctness": 20.020618556701027,
+      "context_precision": 35.989404350278484,
+      "refusals": 54
+    },
+    "N0x": {
+      "n": 97,
+      "factual_correctness": 45.835051546391746,
+      "context_precision": 74.24112256058528,
+      "refusals": 3
+    },
+    "PC-dense": {
+      "n": 97,
+      "factual_correctness": 45.52577319587628,
+      "context_precision": 91.96449025814158,
+      "refusals": 5
+    }
+  }
+}

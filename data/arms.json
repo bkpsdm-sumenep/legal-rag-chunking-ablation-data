@@ -1,0 +1,58 @@
+{
+  "A0": {
+    "description": "fixed-size 1,000/100 characters, HNSW search (clean corpus)",
+    "run_id": "7ece8d4c-4370-4e8d-a6ff-4684aed2037d"
+  },
+  "A0x": {
+    "description": "fixed-size 1,000/100 characters, exact search (clean corpus)",
+    "run_id": "c4d3de03-ead5-432b-b442-a147b92bd3d2"
+  },
+  "A1": {
+    "description": "retrieve paragraph (ayat), send paragraph (clean corpus)",
+    "run_id": "d826af87-33bb-4864-96c2-467056e4f57f"
+  },
+  "A2": {
+    "description": "retrieve paragraph, send parent article (parent-child; clean corpus)",
+    "run_id": "535cc139-677c-4e40-8d2e-ca0d766888f0"
+  },
+  "A2r": {
+    "description": "repeat run of A2 (run-to-run variation)",
+    "run_id": "4136f6f3-60bf-437a-b1c1-18f16c3f7ba6"
+  },
+  "A3": {
+    "description": "fixed-size 5,000/500 characters (context-volume control; clean corpus)",
+    "run_id": "837b2c63-c931-483d-b607-f644be94ec0b"
+  },
+  "A4": {
+    "description": "retrieve article, send article (clean corpus)",
+    "run_id": "85d4bc49-e64b-4dc2-bb26-58e02cfb658e"
+  },
+  "B0x": {
+    "description": "original-run H2 baseline collection (old corpus), exact search",
+    "run_id": "a8e275e7-7c24-48bb-a4a6-bbf65638b6ea"
+  },
+  "H2-base": {
+    "description": "original run: fixed-size 1,000/100 + rewriting + hybrid, HNSW (old corpus)",
+    "run_id": "23b2e0d7-f637-4a89-9498-2c433fa3da7f"
+  },
+  "H2-treat": {
+    "description": "original run: parent-child + rewriting + hybrid (old corpus)",
+    "run_id": "fca3e915-6470-4301-ae76-d42f38d52ffd"
+  },
+  "N0": {
+    "description": "original run: fixed-size 1,000/100 + dense, no rewriting, HNSW (Table 10)",
+    "run_id": "e1eb30d6-b0d1-4501-9615-f8acf58904aa"
+  },
+  "N0x": {
+    "description": "original run: fixed-size 1,000/100 + dense, no rewriting, exact search (Table 10)",
+    "run_id": "9893b34e-e210-412e-b233-3fc12a73d476"
+  },
+  "PC-dense": {
+    "description": "original run: parent-child + dense, no rewriting (Table 10)",
+    "run_id": "aaf6360b-732f-4876-ac08-8ed29f0d3122"
+  },
+  "closed-book": {
+    "description": "no retrieval (Table 10)",
+    "run_id": "closed-book"
+  }
+}
